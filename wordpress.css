@@ -9,3 +9,11 @@
     grid-template-columns: repeat(2,1fr);
 }
 }
+
+/* grid list can filter for produce page */
+body[data-elementor-device-mode="mobile"] .grid-col-mobile-3>.jet-listing-grid__item {
+    max-width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 50%;
+}
