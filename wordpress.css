@@ -1,4 +1,4 @@
-<!-- 1 column cho san pham trang chinh EDIT PRODUCT -->
+/* 1 column cho san pham trang chinh EDIT PRODUCT */
 @media (min-width: 100px) {
 .elementor-element.elementor-products-grid ul.products {
     grid-template-columns: repeat(1,1fr);
