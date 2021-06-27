@@ -56,3 +56,20 @@ body[data-elementor-device-mode="mobile"] .grid-col-mobile-3>.jet-listing-grid__
     grid-template-columns: repeat(3,minmax(0,1fr))
 }}
 
+/* Home News Grid */
+@media (min-width: 100px){
+.elementor-grid-tablet-2 .elementor-grid {
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media (min-width: 600px){
+.elementor-grid-tablet-2 .elementor-grid {
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media (min-width: 1200px){
+.elementor-grid-tablet-2 .elementor-grid {
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
