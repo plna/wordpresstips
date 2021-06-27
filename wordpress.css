@@ -41,3 +41,18 @@ body[data-elementor-device-mode="mobile"] .grid-col-mobile-3>.jet-listing-grid__
 .woocommerce-loop-product__title {
     font-weight: 700;
 }
+
+/* Home Page Product TAB */
+@media (min-width: 100px){
+.woocommerce ul.products.columns-3,.woocommerce-page ul.products.columns-3 {
+    grid-template-columns: repeat(1,minmax(0,1fr))
+}}
+@media (min-width: 600px){
+.woocommerce ul.products.columns-3,.woocommerce-page ul.products.columns-3 {
+    grid-template-columns: repeat(2,minmax(0,1fr))
+}}
+@media (min-width: 1000px){
+.woocommerce ul.products.columns-3,.woocommerce-page ul.products.columns-3 {
+    grid-template-columns: repeat(3,minmax(0,1fr))
+}}
+
