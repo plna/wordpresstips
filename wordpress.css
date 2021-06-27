@@ -25,6 +25,12 @@ body[data-elementor-device-mode="mobile"] .grid-col-mobile-3>.jet-listing-grid__
 .ast-logo-title-inline .ast-site-identity {
     padding: 0em 0;
 }
+.ast-logo-title-inline .ast-site-identity {
+    padding: 0em 0;
+}
+.ast-mobile-header-wrap .ast-primary-header-bar, .ast-primary-header-bar .site-primary-header-wrap {
+    min-height: 50;
+}
 /* home page product */
 .amount::before {
     content: "Giá từ: ";
