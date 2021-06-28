@@ -73,3 +73,16 @@ body[data-elementor-device-mode="mobile"] .grid-col-mobile-3>.jet-listing-grid__
 }
 }
 
+/* TABLE BORDER REMOVE */
+table {
+    margin: 0 0 0em;
+}
+td > table {
+    border-width: 0px 0 0 0px;
+}
+.lv2 > td {
+    border-width: 0px 0 0 0px;
+}
+
+
+
